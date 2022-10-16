@@ -7,8 +7,11 @@ export const Login = () => {
   return (
     <div>
       <button
+        // onClick={() => {
+        //   dispatch(login({ name: "Matt", age: 32, email: "mb@gmail.com" }));
+        // }}
         onClick={() => {
-          dispatch(login({ name: "Matt", age: 32, email: "mb@gmail.com" }));
+          dispatch(login({ name: "Pedro", age: 20, email: "pedro@gmail.com" }));
         }}
       >
         Login
